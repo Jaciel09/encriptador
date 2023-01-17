@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ENCRIPTADOR DE TEXTO</title>
+</head>
+
+<body>
+    <header>
+        <img src="Imagenes/Vector.png" alt="Logo-Alura" class="logo">
+    </header>
+
+    
+    <main>
+
+        <form>
+            <label for="introducirMensaje"> <img src="imagenes/admiracion.png" alt="signoAdmiracion"> Sólo letras minusculas, sin acento</label>
+            <input type="text" id="introducirMensaje" class="texto-mensaje" placeholder="Ingrese el Texto Aquí" required>
+            
+            <div class="buttons">
+                <input type="button" value="Encriptar" class="btn-encriptar">
+                
+                <input type="button" value="Desencriptar" class="btn-desencriptar">
+            </div>
+
+        </form>
+  
+      <div class="mostrar-mensaje">
+        <div class="p1">
+            <p>Ningún Mensaje fue encontrado</p>
+        </div>
+        <div class="p2">
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+      </div>
+
+      <div class="msg-box">
+        <textarea class="texto-input-salida" type="text" id="msg"></textarea>
+        <input class="btn" type="button" value="Copiar" id="btn-copy">
+      </div>
+      
+      <img src="Imagenes/Muñeco.png" class="muñeco" alt="muñeco">
+
+      <script type="text/javascript" src="desafio1.js" ></script>
+
+
+     </main>
+
+
+     <footer>       
+     </footer>    
+
+
+     
+</body>
+</html>
