@@ -261,7 +261,14 @@ form label {
     transform: scale(1.05);
 }
 
+footer {
+    position: absolute;
+    top: 920px;
+    left: 500px;
+    font-size: 22px;
+    color: #0A3871;
 
+}
 
 
 
@@ -443,4 +450,7 @@ form label {
         transform: scale(1.05);
     }
 
+    footer {
+      display: none;
+    }
 }
